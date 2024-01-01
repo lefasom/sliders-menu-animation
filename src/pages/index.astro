@@ -1,0 +1,20 @@
+---
+import Navbar from '@/components/Navbar';
+import Layout from '../layouts/Layout.astro';
+import Slider from '@/components/Slider'
+---
+
+<Layout title="Welcome to Astro.">
+	<h1>Herramientas y componentes</h1>
+	<h4>boton animado</h4>
+	<br>
+		<Navbar client:visible/>
+	<br>
+	<h4>Slider Swiper - 1 -</h4>
+	<br>
+	<Slider client:visible/>
+</Layout>
+
+<style>
+
+</style>
